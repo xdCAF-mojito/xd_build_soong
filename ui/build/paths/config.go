@@ -110,6 +110,12 @@ var Configuration = map[string]PathConfig{
 	"tr":      Allowed,
 	"unzip":   Allowed,
 	"zip":     Allowed,
+	"llvm-ar":   Allowed,
+	"llvm-nm":   Allowed,
+	"llvm-objcopy":   Allowed,
+	"llvm-objdump":   Allowed,
+	"llvm-strip":   Allowed,
+	"aarch64-elf-ld.lld":   Allowed,
 
 	// Host toolchain is removed. In-tree toolchain should be used instead.
 	// GCC also can't find cc1 with this implementation.
